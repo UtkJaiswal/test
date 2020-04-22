@@ -32,7 +32,10 @@
 
 /* Page Intro
 --------------------------------------------------------------------------------------------------------------- */
-#pageintro{padding:250px 0 100px;}
+#pageintro{
+	padding:250px 0 100px;
+	height: 40em;
+}
 
 #pageintro article{}
 #pageintro article .heading{font-size:26px;}
@@ -150,7 +153,7 @@ input:focus, textarea:focus, *:required:focus{border-color:#57ADC4;}
 
 /* Rows */
 .row1{color:#FFFFFF;}
-.row3{color:#141414; background-color:#FFFFFF;}
+.row3{color:#141414; background-color:#D3D3D3;}
 .row4{color:#7F7F7F; background-color:#010101;}
 .row5, .row5 a{color:#7F7F7F; background-color:#252525;}
 
@@ -172,6 +175,13 @@ input:focus, textarea:focus, *:required:focus{border-color:#57ADC4;}
 .container .sidebar nav a{color:inherit; border-color:#D7D7D7;}
 .container .sidebar nav a:hover{color:#57ADC4;}
 
+
+.ftco-navbar-light .navbar-nav > .nav-item > .nav-link{
+  background-color: white;
+}
+.ftco-navbar-light{
+  background-color: #D3D3D3!important; 
+}
 
 
 
