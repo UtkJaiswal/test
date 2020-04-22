@@ -34,11 +34,14 @@
 --------------------------------------------------------------------------------------------------------------- */
 #pageintro{
 	padding:250px 0 100px;
-	height: 40em;
+	height: 35em;
+	margin-bottom: 3em;
 }
 
 #pageintro article{}
-#pageintro article .heading{font-size:26px;}
+#pageintro article .heading{
+
+	font-size:26px;}
 #pageintro article p{margin-bottom:20px; font-size:26px;}
 
 
@@ -60,7 +63,8 @@
 --------------------------------------------------------------------------------------------------------------- */
 #footer{padding:80px 0;}
 
-#footer .heading{margin-bottom:50px; font-size:1.2rem;}
+#footer .heading{
+	margin-bottom:50px; font-size:1.2rem;}
 
 #footer .linklist li{display:block; margin-bottom:15px; padding:0 0 15px 0; border-bottom:1px solid;}
 #footer .linklist li:last-child{margin:0; padding:0; border:none;}
@@ -176,12 +180,6 @@ input:focus, textarea:focus, *:required:focus{border-color:#57ADC4;}
 .container .sidebar nav a:hover{color:#57ADC4;}
 
 
-.ftco-navbar-light .navbar-nav > .nav-item > .nav-link{
-  background-color: white;
-}
-.ftco-navbar-light{
-  background-color: #D3D3D3!important; 
-}
 
 
 
